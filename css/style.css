@@ -14,7 +14,7 @@ header{
     background-image:  url(../images/main.jpg);
     /* background-repeat:  no-repeat; */
     background-size:  cover;
-    height: 861px;
+    height: 100vh;
     /* position:  relative; */
     margin-bottom:  110px;
 }
