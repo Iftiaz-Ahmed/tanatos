@@ -17,7 +17,6 @@ header{
     height: 861px;
     /* position:  relative; */
     margin-bottom:  110px;
-	width: 100vw;
 }
 
 .container {width:  1140px;margin:  0 auto;}
@@ -40,6 +39,12 @@ nav ul li{
 nav ul li a{
     color:  white;
     text-decoration:  none;
+}
+nav ul li a:hover {
+    padding: 5px;
+    background: #f7600e;
+    font-weight: 600;
+    border: 1px solid #3B434B;
 }
 .header-content {/* padding-top:  177px; */text-align:  center;}
 
@@ -66,13 +71,31 @@ span{
     font-size:  16px;
     margin-bottom:  80px;
 }
+.hire:hover{
+    font-size: 18px;
+    font-weight: 00px;
+}
 .arrow{
     color:  white;
     font-size:  30px;
     /* padding-top: 34px; */
 }
-.work {width: 100%;text-align:  center;height: 746px;margin-bottom:  114px;}
-.work img{}
+.arrow:hover{
+    font-size: 35px;
+}
+.work {text-align:  center;height: 775px;margin-bottom:  114px;position:  relative;overflow:  hidden;}
+.work img{
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    margin-bottom: 10px;
+}
+.work img:hover{
+    width: 96%;
+    border-bottom: 5px solid #f7600e;
+    border-radius: 20px;
+}
+
 .work-content {text-align:  center;}
 .work-content p {
     color:  black;
@@ -88,19 +111,40 @@ span{
     margin-bottom:  63px;
 }
 
-.button a{color: #3b434c;text-decoration:  none;border: 2px solid #e5e5e7;padding: 19px 50px;border-radius:  16px;font-weight: 500;}
-
+.button a{color: #3b434c;text-decoration:  none;border: 2px solid #e5e5e7;padding: 19px 50px;border-radius:  16px;font-weight: 500;
+	transition: all 0.7s cubic-bezier(0.4, 0, 1, 1);
+	-webkit-transition: all 0.7s cubic-bezier(0.4, 0, 1, 1);
+	-moz-transition: all 0.7s cubic-bezier(0.4, 0, 1, 1);
+	position:  absolute;bottom: 3%;left: 46%;transform:  translate;transform:  translate;}
+.button a:hover{
+    background: #f7600e;
+    color:  white;
+    /* font-weight:  600; */
+    opacity:  .9;
+    border: 2px solid #f77026;
+}
 .team {
-	width: 100%;
     display:  block;
     /* background:  yellow; */
     text-align: center;
     overflow:  hidden;
-    
+    /* position:  relative; */
 }
 .team img{
     margin-bottom:  30px;
     min-width:  92%;
+    filter: grayscale(100%);
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+}
+.team img:hover{
+    filter: grayscale(0%);
+    /* line-height: 152%; */
+    width: 94%;
+    /* border:  1px; */
+    border-bottom: 6px solid #f7600e;
+    border-radius: 3px;
 }
 .team-content {
 }
@@ -112,14 +156,17 @@ h2{
 .t {
     width:  25%;
     float:  left;
+    /* position: absolute; */
+    /* right: 0; */
 }
-.t img{}
+
 .t p{
     color: #3b434c;
     margin-bottom:  190px;
+    padding:  5px;
 }
 
-.contacts {width: 100%;background-image:  url(../images/contacts.jpg);height:  800px;text-align:  center;}
+.contacts {background-image:  url(../images/contacts.jpg);height:  800px;text-align:  center;}
 
 .contacts-content {margin-bottom:  100px;}
 .contacts-content p{
@@ -151,14 +198,24 @@ textarea{
     font-size: 16px;
     width: 100%;
 }
-.submit {
+.hiree{
+    background: #f7600e;
+    border: 1px solid #f7600e;
+    color:  white;
+    padding:  20px 80px;
+    border-radius: 13px;
+    font-size:  16px;
+    margin-bottom:  80px;
+}
+.hiree:hover{
+    font-size: 18px;
+    font-weight: 00px;
 }
 
 .copy {padding: 45px 170px 0;float:  left;}
 
 .design {padding: 45px 170px;float: right;}
 footer{
-	width: 100%;
     height:  140px;
     background: #3b434c;
 }
