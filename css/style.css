@@ -115,11 +115,23 @@ span{
     margin-bottom:  63px;
 }
 
-.button a{color: #3b434c;text-decoration:  none;border: 2px solid #e5e5e7;padding: 19px 50px;border-radius:  16px;font-weight: 500;
+.button a{
+	color: #3b434c;
+	text-decoration:  none;
+	border: 2px solid #e5e5e7;
+	padding: 19px 50px;
+	border-radius:  16px;
+	font-weight: 500;
 	transition: all 0.7s cubic-bezier(0.4, 0, 1, 1);
 	-webkit-transition: all 0.7s cubic-bezier(0.4, 0, 1, 1);
 	-moz-transition: all 0.7s cubic-bezier(0.4, 0, 1, 1);
-	position:  absolute;bottom: 3%;left: 46%;transform:  translate;transform:  translate;}
+	position:  absolute;
+	bottom: 3%;
+	left: 50%;
+	transform: translate(-50%, 3%);
+	transform:  translate
+	transform:  translate;
+	}
 .button a:hover{
     background: #f7600e;
     color:  white;
