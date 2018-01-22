@@ -14,9 +14,10 @@ header{
     background-image:  url(../images/main.jpg);
     /* background-repeat:  no-repeat; */
     background-size:  cover;
-    height: 100vh;
+    height: 861px;
     /* position:  relative; */
     margin-bottom:  110px;
+	width: 100%
 }
 
 .container {width:  1140px;margin:  0 auto;}
@@ -70,7 +71,7 @@ span{
     font-size:  30px;
     /* padding-top: 34px; */
 }
-.work {text-align:  center;height: 746px;margin-bottom:  114px;}
+.work {width: 100%;text-align:  center;height: 746px;margin-bottom:  114px;}
 .work img{}
 .work-content {text-align:  center;}
 .work-content p {
@@ -90,6 +91,7 @@ span{
 .button a{color: #3b434c;text-decoration:  none;border: 2px solid #e5e5e7;padding: 19px 50px;border-radius:  16px;font-weight: 500;}
 
 .team {
+	width: 100%;
     display:  block;
     /* background:  yellow; */
     text-align: center;
@@ -117,7 +119,7 @@ h2{
     margin-bottom:  190px;
 }
 
-.contacts {background-image:  url(../images/contacts.jpg);height:  800px;text-align:  center;}
+.contacts {width: 100%;background-image:  url(../images/contacts.jpg);height:  800px;text-align:  center;}
 
 .contacts-content {margin-bottom:  100px;}
 .contacts-content p{
@@ -156,6 +158,7 @@ textarea{
 
 .design {padding: 45px 170px;float: right;}
 footer{
+	width: 100%;
     height:  140px;
     background: #3b434c;
 }
