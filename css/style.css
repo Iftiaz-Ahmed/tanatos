@@ -15,7 +15,7 @@ header{
     /* background-repeat:  no-repeat; */
     background-size:  cover;
     height: 861px;
-    /* position:  relative; */
+    position:  relative;
     margin-bottom:  110px;
 }
 
@@ -79,6 +79,10 @@ span{
     color:  white;
     font-size:  30px;
     /* padding-top: 34px; */
+    position:  absolute;
+    left:  50%;
+    bottom: 9%;
+    transform: translate(-50%, 10%);
 }
 .arrow:hover{
     font-size: 35px;
@@ -166,7 +170,7 @@ h2{
     padding:  5px;
 }
 
-.contacts {background-image:  url(../images/contacts.jpg);height:  800px;text-align:  center;}
+.contacts {background-image:  url(../images/contacts.jpg);height: 980px;text-align:  center;background-repeat:  no-repeat;background-size:  cover;}
 
 .contacts-content {margin-bottom:  100px;}
 .contacts-content p{
