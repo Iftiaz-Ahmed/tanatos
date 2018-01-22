@@ -9,7 +9,6 @@
 body{
 	font-family: 'Open Sans', sans-serif;
 	color:  white;
-	width: 100%;
 }
 header{
     background-image:  url(../images/main.jpg);
@@ -20,7 +19,7 @@ header{
     margin-bottom:  110px;
 }
 
-.container {width:  1140px;margin:  0 auto;}
+.container {width:  1140px;margin:  0 auto;    min-width: 1050px;}
 
 .logo {padding-top: 118px;width:  30%;float:  left;}
 nav{
