@@ -19,7 +19,7 @@ header{
     margin-bottom:  110px;
 }
 
-.container {width:  1140px;margin:  0 auto;}
+.container {width: 1024px;margin:  0 auto;}
 
 .logo {padding-top: 118px;width:  30%;float:  left;}
 nav{
@@ -93,9 +93,10 @@ span{
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
     margin-bottom: 10px;
+    width: 89%;
 }
 .work img:hover{
-    width: 96%;
+    width: 90%;
     border-bottom: 5px solid #f7600e;
     border-radius: 20px;
 }
@@ -148,7 +149,7 @@ span{
 }
 .team img{
     margin-bottom:  30px;
-    min-width:  92%;
+    width: 93%;
     filter: grayscale(100%);
     transition: all 0.5s ease;
     -webkit-transition: all 0.5s ease;
@@ -157,7 +158,7 @@ span{
 .team img:hover{
     filter: grayscale(0%);
     /* line-height: 152%; */
-    width: 94%;
+    width: 96%;
     /* border:  1px; */
     border-bottom: 6px solid #f7600e;
     border-radius: 3px;
