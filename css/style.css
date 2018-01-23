@@ -12,11 +12,10 @@ body{
 }
 header{
     background-image:  url(../images/main.jpg);
-    /* background-repeat:  no-repeat; */
     background-size:  cover;
     height: 861px;
     position:  relative;
-    margin-bottom:  110px;
+    margin-bottom: 50px;
 }
 
 .container {width: 1000px;margin:  0 auto;}
@@ -87,7 +86,7 @@ span{
 .arrow:hover{
     font-size: 35px;
 }
-.work {text-align:  center;height: 775px;margin-bottom:  114px;position:  relative;overflow:  hidden;}
+.work {text-align:  center;height: 775px;margin-bottom: 50px;position:  relative;overflow:  hidden;}
 .work img{
     transition: all .5s ease;
     -webkit-transition: all .5s ease;
@@ -179,11 +178,11 @@ h2{
 
 .t p{
     color: #3b434c;
-    margin-bottom:  190px;
+    margin-bottom: 100px;
     padding:  5px;
 }
 
-.contacts {background-image:  url(../images/contacts.jpg);height: 980px;text-align:  center;background-repeat:  no-repeat;background-size:  cover;}
+.contacts {background-image:  url(../images/contacts.jpg);height: 850px;text-align:  center;background-repeat:  no-repeat;background-size:  cover;}
 
 .contacts-content {margin-bottom:  100px;}
 .contacts-content p{
@@ -233,7 +232,8 @@ textarea{
 
 .design {padding: 45px 170px;float: right;}
 footer{
-    height:  140px;
+    height: 115px;
     background: #3b434c;
+    position:  relative;
 }
 footer img{}
